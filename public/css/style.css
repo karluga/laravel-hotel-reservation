@@ -1,0 +1,50 @@
+svg.kaza-booking-logo {
+    height: 50px;
+    width: auto;
+}
+.admin-icon {
+  height: 40px;
+  width: auto;
+}
+.card {
+    position: relative;
+}
+.card .stars {
+    position: absolute;
+    background: #ffffff;
+    padding: 3px 12px;
+    border-radius: 0px 0px 9px 9px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+body {
+    background-image: url('../assets/marble-bg.jpg');
+    background-size: cover;
+
+    background-image: radial-gradient(#82287a 0.5px, #f1eeee 0.5px), radial-gradient(#82287a 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+}
+.room-number {
+    background: darkred;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    display: inline;
+
+    -webkit-mask-image:
+        radial-gradient(circle at top left, transparent 0, transparent  5px, black 5px),
+        radial-gradient(circle at top right, transparent 0, transparent  5px, black 5px),
+        radial-gradient(circle at bottom left, transparent 0, transparent  5px, black 5px),
+        radial-gradient(circle at bottom right, transparent 0, transparent  5px, black 5px);
+    -webkit-mask-position: top left, top right, bottom left, bottom right;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 50% 50%;
+    mask-image:
+        radial-gradient(circle at top left, transparent 0, transparent 5px, black 5px),
+        radial-gradient(circle at top right, transparent 0, transparent 5px, black 5px),
+        radial-gradient(circle at bottom left, transparent 0, transparent 5px, black 5px),
+        radial-gradient(circle at bottom right, transparent 0, transparent 5px, black 5px);
+    mask-position: top left, top right, bottom left, bottom right;
+    mask-repeat: no-repeat;
+    mask-size: 50% 50%;
+}
