@@ -44,6 +44,10 @@ To generate the app key
 ```
 php artisan key:generate
 ```
+To add the storage path as a symbolic link, so people can access images
+```
+php artisan storage:link
+```
 To launch the website on localost
 ```
 php artisan serve
