@@ -45,10 +45,11 @@ To launch the website on localost
 php artisan serve
 ```
 IMPORTANT!
-Before starting the app, see if the .env file has:
+Before starting the app, see if the `.env` file has:
 - The MySQL database credentials
 - Credentials from Gmail SMTP free mail service (from their server)
  - They can be created in your google account.
  - [Google Account](https://myaccount.google.com/) -> Security -> 2-Step Verification (2FA) -> App Passwords
+ - Delete the whitespaces from the password before pasting it in the `.env` file.
  - P.S. they let you see it <u>only once!</u>
  - [YT tutorial](https://www.youtube.com/watch?v=1YXVdyVuFGA&ab_channel=Sombex)
