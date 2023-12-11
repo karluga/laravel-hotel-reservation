@@ -40,9 +40,17 @@ To get all the dependencies including the `vendor` folder, run this command
 ```
 composer install
 ```
+To make an `.env` file from a template
+```
+cp .env.example .env
+```
 To generate the app key
 ```
 php artisan key:generate
+```
+To run database migrations
+```
+php artisan migrate
 ```
 To add the storage path as a symbolic link, so people can access images
 ```
