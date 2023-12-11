@@ -40,6 +40,10 @@ To get all the dependencies including the `vendor` folder, run this command
 ```
 composer install
 ```
+To generate the app key
+```
+php artisan key:generate
+```
 To launch the website on localost
 ```
 php artisan serve
