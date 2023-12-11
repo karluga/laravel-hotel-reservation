@@ -34,3 +34,13 @@
 
 ### 6. Kļūdu pārvaldība
    - Nodrošiniet, ka lietojumprogramma pareizi apstrādā kļūdas, piemēram, servera kļūdas, datu bāzes kļūdas un lietotāja ievades kļūdas.
+
+## Local setup
+To get all the dependencies including the `vendor` folder, run this command
+```
+composer install
+```
+To launch the website on localost
+```
+php artisan serve
+```
